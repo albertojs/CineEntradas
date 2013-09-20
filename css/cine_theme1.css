@@ -1,0 +1,724 @@
+/* ----- Forms ----- */
+.form {
+	border: #FF9900 solid 1px;
+	border-bottom: 1px solid #0099FF;
+}
+
+/* ----- Labels ----- */
+body {
+	background-color: #0074C4;
+	color: #FFFFFF;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 10px;
+}
+td {
+	color: #FFFFFF;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+a {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF9900;
+	text-decoration: underline;	
+}
+input, textarea {
+	background-color: #FFFFFF;
+	color: #0074C4;
+	font-size: 10px;
+}
+select {    
+	background-color: #0074C4;
+	color: #FFFFFF;
+	font-size: 10px;
+}
+/* ----- Classes ----- */
+/* ----- Banner ----- */
+.bgrBanner {
+	background-color: #9CCBE9;
+}
+/* ----- Navegacion ----- */
+.txtPreSituacion {
+	color:#FF9900 ;
+}
+.txtSituacion {
+}
+.lnkSituacion {
+}
+/* ----- Enlaces corporativos ----- */
+.lnkCorporativo {
+}
+.tdCorp {
+	background-color: #3A94D2;
+	font-size: 10px;
+	font-weight: normal;
+	border-top: 1px solid #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+	border-right: 1px solid #9CCBE9;
+}
+.tdCab {
+	background-color: #0074C4;
+	font-size: 11px;
+	font-weight: bold;
+	border-top: 1px solid #9CCBE9;
+	border-right: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+/* ----- Buscador ----- */
+.lnkSearch {
+	background-color: #0068AE;
+	border: 1px solid #FFFFFF;
+	padding: 1px;
+	text-decoration: none;	
+}
+.lnkSearch:hover {
+	background-color: #0082D9;	
+	text-decoration: none;	
+}
+.frmRadioSearch {
+	background-color: #0074C4;
+}
+.txtRadio {
+}
+.lnkAdvancedSearch {
+}
+
+.txtDate{
+	color:#FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* ----- Top 10 ----- */
+.txtTop {
+}
+/* ----- Cines por provincia ----- */
+.txtTittleLocalidad {
+	font-size: 14px;
+	font-weight: bold;
+}
+.tdCine {
+	background-color: #3A94D2;
+	font-size: 11px;
+	font-weight: bold;
+	border-top: 1px solid #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+.tdRoom {
+	color: #0068AE;
+	background-color: #FF9900;
+	font-weight: bold;
+	font-size: 11px;
+}
+.tdDireccion {
+	color: #2F2F2F;
+	background-color: #4E9FD8;
+	font-size: 10px;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+.tdRoom2 {
+	background-color: #4E9FD8;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+	border-right: 1px solid #9CCBE9;
+}
+/* ----- Películas por provincia ----- */
+.lnkAbc{
+	text-decoration: none;
+	font-size: 10px;
+}
+.lnkAbc:hover{
+	text-decoration: none;
+}
+.txtLetter {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.txtLetterAbc {
+	background-color: #0068AE;
+	border: 1px solid #FFFFFF;
+	padding: 1px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+.lnkButton {
+	background-color: #0068AE;
+	border: 1px solid #FFFFFF;
+	padding: 1px;
+	text-decoration: none;	
+}
+.lnkButton:hover {
+	background-color: #0082D9;	
+	text-decoration: none;	
+}
+.tdGridHeaderFilm {
+	background-color: #FF9900;
+	border: 1px solid #9CCBE9;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: none;
+}
+a.TitleFilm {
+	color: black;
+	text-decoration: none;
+}
+
+a.TitleFilm:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.verFic {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 11px
+	text-decoration: underline;
+}
+
+a.verFic {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 11px
+	text-decoration: underline;
+}
+
+a.verFic:hover {
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: underline;
+	font-size: 11px
+}
+
+.tdGridSubHeaderFilm {
+	background-color: #9CCBE9;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: none;
+}
+
+.tdGridSubHeaderEndFilm {
+	background-color: #9CCBE9;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;
+	border-right: 1px solid #FF9900;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: none;
+}
+
+.tdGridFilm {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+.tdGridEndFilm {
+	background-color: #3A94D2;
+	border-right: 1px solid #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+	font-size: 10px;
+}
+.tdGridFilmPannel {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #9CCBE9;
+}
+.txtGridDarkFilm {
+	color: #2F2F2F;
+	background-color: #3A94D2;
+}
+.tdGridEndDarkFilm {
+	background-color: #0068AE;
+	border-right: 1px solid #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+.lblCmbCategory {
+}
+.cmbCategory{
+	color: #0074C4;
+	background-color: #FFFFFF;
+}
+.TittleDate{
+	font-size: 14px;
+}
+/* ----- Enlaces añadir a Favorites ----- */
+.lnkFavorites {
+	color: #9CCBE9;
+}
+/* ----- Programación de un cine ----- */
+.tdTittleProgCine {
+	font-size: 14px;
+	font-weight: bold;
+	border-top: 1px solid #9CCBE9;
+	border-right: 1px solid #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+}
+.tdChair {
+	font-size: 14px;
+	font-weight: bold;
+	border-top: 1px solid #9CCBE9;
+	border-right: none;
+	background-color: #9CCBE9;
+	border-bottom: 1px solid #9CCBE9;
+	border-left: 1px solid #9CCBE9;
+}
+.lblDetailCine {
+	color: #2F2F2F;
+	font-weight: bold;
+}
+.txtDetailCine
+{
+	font-size: 10px;
+}
+.lblAnchor {
+	font-weight: bold;
+}
+.lnkAnchor {
+	font-weight: bold;
+}
+.txtTittleGrid {
+}
+.lblCmbDate {
+}
+.cmbDate{
+}
+.tdGridHeader {
+	background-color: #FF9900;
+	border: 1px solid #FF9900;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: none;
+}
+.tdGridHeaderSubr {
+	background-color: #FF9900;
+	border: 1px solid #FF9900;
+	font-weight: bold;
+	color: #0068AE;
+	text-decoration: underline;
+	font-size: 11px;
+}
+.tdGrid {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;	
+	font-size: 10px;
+}
+.tdGridTop {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;
+	font-size: 10px;	
+}
+.tdGridTopEnd {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	border-right: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;
+	font-size: 10px;
+}
+.tdGridBold {
+	background-color: #3A94D2;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	font-weight: bold;
+}
+.tdGridEnd {
+	background-color: #3A94D2;
+	border-right: 1px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	font-size: 10px;	
+}
+.tdGridEndBold {
+	background-color: #3A94D2;
+	border-right: 1px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	border-left: 1px solid #FF9900;
+	font-weight: bold;
+}
+.txtGridDark {
+	color: #0068AE;
+	background-color: #3A94D2;
+	text-decoration: underline;
+}
+.lnkGrid {
+	text-decoration: underline;
+}
+
+.lnkConsultGrid {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;	
+	font-size: 10px;
+}
+
+.lnkConsultGrid:hover {
+	color: #3A94D2;
+	
+}
+.lblDetailGrid {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.txtProgDisp {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 15px;
+}
+.txtDetailGrid {
+	font-weight: bold;
+	color: #000000;
+}
+.tdGridDetail {
+	background-color: #3A94D2;
+	font-weight: bold;
+	border-bottom: 1px solid #FF9900;
+	border-right: 1px solid #FF9900;
+}
+/* ----- Programación de una película ----- */
+.txtTittleProgFilm {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+.lblDetailFilm {
+	color: #9CCBE9;
+}
+.txtDetailFilm {
+}
+/* ----- Proximos estrenos ----- */
+.lnkMoreInf {
+}
+.txtTittleEstreno {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+
+/* ----- Patio sesiones numeradas ----- */
+.txtMaxChairs {
+	font-size: 10px;
+	font-weight: bold;
+}
+.txtMaxChairsNoNum {
+	font-size: 16px;
+	font-weight: bold;
+}
+.txtBuyInf {
+	font-weight: bold;
+	font-size: 10px;	
+}
+.lblBuyDetail {
+	font-weight: bold;
+	font-size: 10px;	
+	color: #000000;
+}
+.txtBuyDetail {
+	font-weight: bold;
+}
+.txtTittleSession {
+	font-weight: bold;
+	font-size: 10px;	
+	color: #9CCBE9;
+}
+.lblSession {
+	font-size: 10px;
+	color: #9CCBE9;
+}
+.lnkTimeSession {
+	font-size: 10px;
+	font-weight: bold;
+}
+/* ----- Introduccion de tarjeta ----- */
+.tdCard {
+	background-color: #3A94D2;
+	border: 1px solid #FF9900;
+}
+.cmbPrice {
+	color: #0074C4;
+	background-color: #FFFFFF;
+}
+.infoCard {
+	font-weight: bold;
+}
+
+.Conditions {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txtLegal{
+	font-size: 10px;
+	color: #0074C4;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txbTotalPrice {
+	color: #00000;
+	background-color: #0074C4;
+}
+
+
+/* ----- Pago OK ----- */
+
+.tdGridHeaderTarjet {
+	background-color: #FF9900 ;
+	border: 1px solid #FF9900 ;
+	font-weight: bold;
+	font-size: 11px;
+	color: #0068AE;
+	text-decoration: none;
+}
+
+.tdGridCabTarjetas {
+	background-color: #459AD4;
+	border-bottom: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;	
+}
+
+.txtTittleOperation {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+.lblDetailOperation {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.txtDetailOperation {
+	font-size: 12px;
+	font-weight: bold;
+}
+.txtRefNumber {
+	font-size: 11px;
+}
+.txtConsulta {
+	font-size: 9px;
+	color: #000000;
+}
+.txtBarProduct {
+	font-size: 11px;
+}
+.txtPrices {
+	font-size: 11px;
+	font-weight: none;
+}
+
+.txtSesion{
+	color: #000000;	
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.txtChairPrice{
+	color: #000000;	
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.lblTotalPrice{
+	color: #FFFFFF;	
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.txtOtrosProd{
+	color: #FFFFFF;	
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.tdGridBuyData{	
+	background-color: #459AD4;
+	border-bottom: 1px solid #FF9900 ;
+	border-left: 1px solid #FF9900 ;
+	color: #000000;	
+	font-size: 10px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+.lnkOthersPay{
+	font-size: 10px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+.tdGridBuyEnd{	
+	background-color: #459AD4;
+	border-bottom: 1px solid #FF9900 ;
+	border-left: 1px solid #FF9900 ;
+	border-right: 1px solid #FF9900 ;
+	color: #000000;	
+	font-size: 10px;
+	/*text-decoration:underline;*/
+	font-weight: bold;
+}
+
+.txtTypeChair{
+	color: #000000;	
+	font-size: 10px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+.txtConditions{
+	color: #2F2F2F;	
+	font-size: 11px;
+}
+
+/* Calendario */
+
+.tdGridCalendar{	
+	color: #FFFFFF;	
+	background-color: #0068AE;
+}
+
+.tdGridCalendarWEnd{	
+	color: #FFFFFF;	
+	background-color: #0068AE;
+}
+.calendarioCabeceraMes {	
+	color: #FFFFFF;	
+	background-color: #FF9900; 
+	font-weight: bold;
+}
+
+.calendarioCabecera {	
+	color: #FFFFFF;	
+	background-color: #5c8dc8;
+	border-right: 1px solid #FF9900 ;
+	border-bottom: 1px solid #FF9900 ;
+	border-left: 1px solid #FF9900 ;
+}
+.calendarioLaborableNoProgramado {	
+	background-color: #0068AE;	
+	color: #FFFFFF;
+	}
+.calendarioLaborableProgramado {	
+	background-color: #FF9900;	
+	color: #FFFFFF;	
+	text-decoration: none;	
+	font-weight: normal;
+}
+.calendarioPie {	
+	color: #FFFFFF;	
+	background-color: #009966;
+}
+.calendarioFindeNoProgramado {	
+	background-color: #0068AE;	
+	color: #FFFFFF;
+}
+.calendarioFindeProgramado {	
+	background-color: #FF9900;	
+	color: #FFFFFF;	
+	font-weight: normal;	
+	text-decoration: underline;
+}
+
+.calendarioProgramadoHoy {
+	background-color: #5c8dc8;	
+	color: #FFFFFF;	
+	font-weight: normal;	
+	text-decoration: underline;
+}
+
+.calendarioNoProgramadoHoy {	
+	background-color: #5c8dc8;	
+	color: #FFFFFF;
+}
+
+/* Mensajes de error */
+
+.txtError{
+	color: #FFFFFF;	
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+/* ----- Productos de Bar ----- */
+
+.tdProdBorder {
+	background-color: #3A94D2;
+	border: 1px solid #9CCBE9 ;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.tdProd_UpRightDown {
+	background-color: #3A94D2;
+	border-top: 1px solid #9CCBE9 ;
+	border-bottom: 1px solid #9CCBE9 ;
+	border-right: 1px solid #9CCBE9 ;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.tdProdTitle {
+	background-color: #FF9900;
+	border-top: 1px solid #9CCBE9 ;
+	border-right: 1px solid #9CCBE9 ;
+	border-left: 1px solid #9CCBE9 ;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0073C4;
+}
+
+.tdProdDesc {
+	background-color: #3A94D2;
+	border-top: 1px solid #9CCBE9 ;
+	border-right: 1px solid #9CCBE9 ;
+	border-left: 1px solid #9CCBE9 ;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.txtProdLabel {
+	color: #000000;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.txtProdTexto {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}

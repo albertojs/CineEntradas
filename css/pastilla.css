@@ -1,0 +1,71 @@
+/* PASTILLA */
+div.pastilla{
+	width:100%;
+	text-align:center;
+	margin-top:8px;
+	font-size:.87em;
+}
+div.pastilla div.titPast{
+	height:14px;
+	background:#007CC9 url(/entradas/imagenes/css/bg_past.gif) 
+repeat-x top left;
+}
+div.pastilla .lTitPast{
+	height:14px;
+	background:url(/entradas/imagenes/css/left_past.gif) 
+no-repeat top left;
+}
+div.pastilla .rTitPast{
+	height:14px;
+	background:url(/entradas/imagenes/css/right_past.gif) 
+no-repeat top right;
+}
+div.pastilla .rTitPast span{
+	background:url(/entradas/imagenes/css/arrow_past.gif) 
+no-repeat center left;
+	padding-left:10px;
+	vertical-align:10%;
+	font-size:.84em;
+	font-weight:900;
+	color:#fff;
+	*vertical-align:top;
+}
+div.pastilla ul{
+	font-size:.83em;
+	margin:4px 0;
+	padding:0 6px;
+	list-style-type: none;
+	background:#3397D6;
+	text-align:left;
+}
+div.pastilla ul li{
+	background:url(/entradas/imagenes/css/bord_past.gif) 
+repeat-x bottom left;
+	padding-bottom:1px;
+}
+div.pastilla ul li a{
+	font-weight:900;
+}
+div.pastilla ul li a:hover{
+	text-decoration:none;
+	color:#CCE5F5;
+	
+}
+
+div.pastilla li.teatro {
+	background:#FF0000;
+	color:#ffffff;
+  font-weight:900;
+}
+
+div.pastilla li.cine {
+	background:#F39D0D;
+	color:#ffffff;
+  font-weight:900;
+}
+
+div.pastilla li.eventos {
+	background:#CCE5F5;
+	color:#000000;
+  font-weight:900;
+}

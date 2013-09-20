@@ -1,0 +1,259 @@
+body{font:80% 'Verdana';}
+body,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p,form,fieldset,legend,input,img{margin:0;padding:0;}
+body *{
+	line-height:1.22em;
+}
+img{
+	border:0;
+}
+a{text-decoration:none;}
+
+ul {
+ list-style:none;
+}
+.menu{
+	width:160px;
+}
+.baseFontColor{color:#fff;}
+a {
+ color:#fff;
+}
+a:link,a:visited {
+ text-decoration:none;
+}
+a:hover {
+ text-decoration:underline;
+}
+table{
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+}
+input{
+	font-size:.9em;	
+}
+table.maxSize{
+	width:1000px;
+	*width:1003px;
+}
+#provSitu{
+	float:left;
+	background:#fff;
+	width:160px;
+}
+.pSt{
+	font-weight:900;
+	color:#107FCF;
+}
+.barraMenu{
+	width:160px;	
+}
+
+.textopeq{
+	color:#B2D7F0;
+	 font-weight:500;
+}
+
+#corpImg{
+	background:#fff url(/entradas/imagenes/css/corpImg.gif) no-repeat 0 0;
+	width:840px;
+	height:76px;
+	overflow:hidden;
+}
+#corpImg span.corpTxt{margin-left:-2000px;}
+.barBG{
+	background:#0A7BCE url(/entradas/imagenes/css/bgMenuBar.gif) repeat-x 0 0;
+	height:24px;
+}
+.tit1{
+	margin-left:5px;
+	background:#fff url(/entradas/imagenes/css/arrow.gif) no-repeat 0 0;
+	padding-left:10px;
+	font-weight:900;
+	font-size:.9em;
+	color:#0A7BCE;
+}
+#selProv{
+	width:90%;
+	margin-left:10px;
+	padding:1px;
+	border:1px solid #80BEE5;
+	background:#fff url(/entradas/imagenes/css/select.gif) no-repeat center right;
+	font-weight:900;
+	font-size:.7em;
+	color:#000;
+	cursor:pointer;
+}
+#selectProv{
+	position:absolute;
+	border:1px solid #80BEE5;
+	background:#fff;
+	width:11em;
+	height:22em;
+	overflow:auto;
+	visibility:hidden;
+}
+#selectProv a{
+	color:#0A7BCE;
+	font-weight:900;
+	font-size:.9em;
+}
+#detalle{
+	background:#7FBAE5;	
+}
+#publiMargen{
+	background:#0076CC;	
+	padding:8px;
+}
+#piePag{
+	padding:8px;
+	background:#0074C4;
+	font-size:.8em;
+	color:#fff;
+	text-align:center;
+}
+#options ul{
+	margin-left:30px;
+	vertical-align:middle;	
+}
+#options h3{font-size:1.4em;}
+#options li{
+	float:left;
+}		
+#options li .opc{
+	background:url(/entradas/imagenes/css/icoSec.gif) no-repeat 0 -1000px;
+}
+#options #opcEve .opc{
+		padding-left:20px;
+		background-position:0 2px;
+}
+#opcEve a {
+	text-decoration:none;	
+}
+#opcSubEve,#opcSubCin,#opcSubTea{
+	position:absolute;
+	background:#0A7BCE;
+	font-size:.8em;
+	width:13em;
+	visibility:hidden;
+}
+#opcSubEve ul,#opcSubCin ul,#opcSubTea ul{
+	padding:10px 5px 10px;
+}
+#opcSubEve li,#opcSubCin li,#opcSubTea li{border-bottom:1px solid #1A87D1; text-align:center; }
+#opcSubEve li a,#opcSubCin li a,#opcSubTea li a{
+	color:#B2D7F0;
+	text-decoration:none;
+}
+#opcSubEve li a:hover,#opcSubCin li a:hover,#opcSubTea li a:hover{
+	color:#fff;
+}
+
+#options #opcCin .opc{
+		padding-left:20px;
+		background-position:0 -20px;
+}
+#options #opcTea .opc{
+		padding-left:20px;
+		background-position:0 -42px;
+}
+#options div{
+	width:150px;	
+}
+
+#mainSearch{
+	padding-right:15px;
+	text-align:right;
+	font-size:.9em;
+}
+table{
+	font-size:inherit;
+	font:100%;
+}
+div.biselSup{
+	background:url(/entradas/imagenes/css/bgBarSup.gif) repeat-x Top left;	
+}
+div.biselInf{
+	background:url(/entradas/imagenes/css/bgBarInf.gif) repeat-x bottom left;	
+}
+
+div.pastillaHome{
+	background:#007DCB;
+	border:1px solid #BFDDF2;
+}
+div.imgPastilla{
+	text-align:center;
+	margin:2px;
+}
+div.barraTitulo,div.barraPie{	
+	border:1px solid #BFDDF2;
+	margin:2px;
+}
+div.barraTitulo span.tituloPastilla{
+	color:#fff;
+	font-weight:900;
+	font-size:1.1em;
+}
+div.barraTitulo span.tipoPastilla{
+	font-size:.7em;
+	color:#B2D7F0;
+}
+div.barraPie div.piePastilla{
+	display:inline;
+	width:22em;
+	height:6em;
+	font-size:.7em;
+	color:#B2D7F0;
+	
+}
+div.barraPie div.pieInfo{
+	margin-left:15em;
+	padding:4px 5px 3px;
+	font-size:.8em;
+	font-weight:900;
+	background:#BFDDF2;
+
+}
+div.barraPie div.pieInfo a{
+	color:#007DCB;
+}
+div.extraLinks{
+	background:#0074C4;
+	font-size:.9em;
+	text-align:right;
+ 	height:16px;	
+}
+div.extraLinks li{
+	margin:0 6px;
+	display:inline;
+}
+div.center{text-align:center;}
+#mainSearch:after, #optionsBar:after, #corpImg:after, #middleRight:after {
+ content:".";
+ display:block;
+ font-size:0px;
+ line-height:0px;
+ height:0;
+ clear:both;
+ visibility:hidden;
+}
+
+#middle{
+	position:relative;	
+}
+#middleLeft{
+	float:left;
+	background:#fff;
+	width:16%; min-width:160px;
+	margin:0 0 10px 0;	
+}
+#middleRight {
+	float:right;
+	width:84%; min-width:840px;
+	margin-left:16%;
+	*margin-left:-20px;
+}
+
+
+.visible{visibility:visible;}
+.oculto{visibility:hidden;}
